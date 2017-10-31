@@ -1,0 +1,71 @@
+/* Style of lab 5 */
+
+body {
+  padding: 10px;
+  background-image: url("images/background.jpg");
+  background-size:100% 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'helvetica', sans-serif;
+  font-weight: bold;
+  padding:30px;
+  color:#10126d;
+  text-shadow: 3px 3px 3px #adadad;
+}
+h1:hover {
+  color:yellow;
+}
+h1.back {
+  border-bottom: 2px dotted #10126d; 
+}
+table {
+  position: fixed;
+  font-family: 'helvetica', sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  height: 400px;
+  border-spacing: 5px;
+  margin: 10px 10px 10px 10px;
+}
+th {
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'helvetica', sans-serif;
+  padding: 15px; 
+}
+th:hover {
+  color:yellow;
+  transform:scale(1.05);
+}
+td {
+  padding: 5px; 
+  border-bottom: 5px double #7b7b7b; 
+  font-size: 13px;
+  color: #10126d;
+}
+sup {
+ vertical-align: 10px;
+ font-size: smaller;
+}
+img {
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  image-shadow:  
+}
+footer {
+  position: fixed;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
+  bottom: 5px;
+  color: #10126d;
+  background-color: #7b7b7b;
+  height: 10px;
+  width: 95%;
+  font-weight: bold;
+}
