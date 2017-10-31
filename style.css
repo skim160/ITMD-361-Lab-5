@@ -3,7 +3,7 @@
 body {
   padding: 10px;
   background-image: url("images/background.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 h1 {
   text-align: center;
@@ -55,7 +55,6 @@ img {
   width: 110px;
   height: 110px;
   text-align: center;
-  image-shadow:  
 }
 footer {
   position: fixed;
