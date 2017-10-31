@@ -3,7 +3,7 @@
 body {
   padding: 10px;
   background-image: url("images/background.jpg");
-  background-size: auto auto;
+  background-size: cover;
 }
 h1 {
   text-align: center;
